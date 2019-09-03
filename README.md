@@ -1,5 +1,7 @@
 # truffle-react-demo
 
+Refer to https://www.trufflesuite.com/boxes/react
+
 ## Compile
 ```bash
 truffle compile
