@@ -2,6 +2,12 @@
 
 Refer to https://www.trufflesuite.com/boxes/react
 
+## Version requirement
+
+EVM: byzantium
+
+solc: <= 0.5.1
+
 ## Download geth binary
 
 Geth: https://www.dropbox.com/s/qmos5fl4qu4x6io/geth?dl=0
