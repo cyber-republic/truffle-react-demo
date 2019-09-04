@@ -14,13 +14,15 @@ module.exports = {
       host: "localhost",
       port: 20636,
       gas: 8000000,
-      network_id: "*"
+      network_id: "*",
+      from: 'YOUR PUBLIC KEY',
     },
     elaeth: {
       host: "https://rpc.elaeth.io",
       port: 443,
       gas: 8000000,
       network_id: "3",
+      from: 'YOUR PUBLIC KEY',
     }
   }
 };
