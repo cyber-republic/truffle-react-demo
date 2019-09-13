@@ -1,0 +1,26 @@
+{
+  "name": "truffle-react-demo",
+  "version": "1.0.0",
+  "description": "DApp example running on Elastos Ethereum sidechain",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "web3": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elaeth/truffle-react-demo.git"
+  },
+  "author": "Harry Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elaeth/truffle-react-demo/issues"
+  },
+  "homepage": "https://github.com/elaeth/truffle-react-demo#readme"
+}
