@@ -1,4 +1,5 @@
 const path = require("path");
+const Web3 = require("web3");
 
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
@@ -15,14 +16,13 @@ module.exports = {
       port: 20636,
       gas: 8000000,
       network_id: "*",
-      from: 'YOUR PUBLIC KEY',
+      from: 'YOUR_PUBLIC_KEY',
     },
     elaeth: {
-      host: "https://rpc.elaeth.io",
-      port: 443,
       gas: 8000000,
       network_id: "3",
-      from: 'YOUR PUBLIC KEY',
+      from: 'YOUR_PUBLIC_KEY',
+      provider: new Web3.providers.HttpProvider('https://rpc.elaeth.io:443')
     }
   }
 };
