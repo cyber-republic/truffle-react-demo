@@ -18,11 +18,19 @@ module.exports = {
       network_id: "*",
       from: 'YOUR_PUBLIC_KEY',
     },
+    // testnet
     elaeth: {
       gas: 8000000,
       network_id: "3",
       from: 'YOUR_PUBLIC_KEY',
       provider: new Web3.providers.HttpProvider('https://rpc.elaeth.io:443')
+    },
+    // mainnet
+    elaethMain: {
+      gas: 8000000,
+      network_id: "3",
+      from: 'YOUR_PUBLIC_KEY',
+      provider: new Web3.providers.HttpProvider('https://mainrpc.elaeth.io:443')
     }
   }
 };
